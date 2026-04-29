@@ -13,6 +13,8 @@ void main() {
                 Colors.blue,
                 Colors.red,
               ],
+              begin: AlignmentGeometry.topStart,
+              end:AlignmentGeometry.bottomCenter,
             ),
           ),
           child: Center(
