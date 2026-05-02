@@ -5,8 +5,7 @@ void main() {
   runApp(
     MaterialApp(
       home: (Scaffold(
-        body: Text(
-          "Привет! Меня зовут Шапкин. Я студент лучшей группы ИСП-232.",
+        body: Image.network('https://i.ytimg.com/vi/yCbOh-zAFAk/maxresdefault.jpg',
         ),
       )),
     ),
