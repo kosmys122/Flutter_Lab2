@@ -1,17 +1,63 @@
-# first_flutter_app
+# Flutter Lab 2 - Знакомство с Flutter
 
-A new Flutter project.
+Проект создан в рамках лабораторной работы №2 по изучению основ кроссплатформенной разработки на Flutter. Приложение демонстрирует базовые концепции фреймворка: виджеты, дерево виджетов и работу с UI.
 
-## Getting Started
+## Информация об авторе
 
-This project is a starting point for a Flutter application.
+**Выполнил:** Шапкин  
+**Группа:** ИСП-232
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter**
+- **Dart**
+- **Платформа:** Web (Chrome)
+- **IDE:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Скриншот приложения](img/step9_SHapkin.png)5
+
+## Запуск
+
+1. Клонировать репозиторий:
+   ```bash
+   git clone <URL_вашего_репозитория>
+
+2. Перейти в папку проекта:
+   ```bash
+    cd Flutter_Lab2
+3. Установить зависимости:
+   ```bash
+    flutter pub get
+4. Запустить приложение:
+   ```bash
+    flutter run -d chrome
+## Что изучили
+В ходе выполнения лабораторной работы были изучены:
+1. Основы Flutter — структура проекта, создание и запуск Flutter-приложения в браузере Chrome
+2. Виджеты — базовые строительные блоки UI: MaterialApp, Scaffold, Center, Text, Container
+3. Дерево виджетов — иерархическая структура вложенности виджетов и принципы их композиции
+4. Стилизация интерфейса — работа с цветами (Colors, const Color), градиентами (LinearGradient), оформление текста (TextStyle)
+5. Инструменты разработки — Hot Reload vs Hot Restart, Flutter DevTools, Flutter Inspector, работа с VS Code
+# Структура проекта
+   ```bash
+    Flutter_Lab2/
+    ├── lib/
+    │   └── main.dart          # Основной код приложения
+    ├── img/                   # Скриншоты приложения
+    ├── web/                   # Веб-точка входа
+    ├── pubspec.yaml           # Манифест проекта
+    └── README.md              # Этот файл
+```
+
+
+
+
+
+
+
+
+
+
+
